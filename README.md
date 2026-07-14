@@ -1,2 +1,2 @@
 # jymnasium
-A repository of my training 🐬
+A repository of my training
