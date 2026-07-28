@@ -8,9 +8,9 @@ Purpose of main element? remember to use href for a tags rather tha src
 - Pick out all features and elements from sample cat photo app in comented code below in order to practice adding various elements to the document
 - Pay special attention to wrapping elements within elements like <em>elements</em> and nested <a>elements</a> etc.
 - Learn: What is 'semantic' HTML?
-
 -->
 
+<!-- NOTE: this HTML file serves as a synthesis of freeCodeCamp's Responsive Web Design - HTML lessons -->
 <!DOCTYPE html>
 <html lang="en">
   <head> 
@@ -27,8 +27,12 @@ Purpose of main element? remember to use href for a tags rather tha src
       <br>
       <section>
         <h2>Gaia, The Earth Mother</h2>
-        <p>In Greek mythology, Gaia is the primordial goddess who personifies the Earth and is regarded as the mother of many of the gods, <a href="https://en.wikipedia.org/wiki/Titans">Titans</a>, and all living creatures.</p>
-        <img src="images/earth-mother.jpg" alt="Earth Mother painting by Sir Edward Burne Jones">
+        <!-- Note the nested anchor <a> element in the paragraph element below – especially the target attribute (set to a value of "_blank") which opens the link in a new tab-->
+        <p>Gaia is the primordial goddess of the Earth and is the mother of many of the gods, <a target="_blank" href="https://en.wikipedia.org/wiki/Titans">Titans</a>, and all living creatures.</p>
+        <figure>
+          <img src="images/earth-mother.jpg" alt="Earth Mother painting by Sir Edward Burne Jones">
+          <figcaption><em>Earth Mother</em> – Sir Edward Burne-Jones, <strong>1882</strong></figcaption>
+        </figure>
       </section>
     </main>
    <footer>
